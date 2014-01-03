@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mmUTSetupTearDown</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Insert at top of Unit Test Case file
+- (void)setUp {
+    self.&lt;#yourObject#&gt; = [[&lt;#YourObjectClass#&gt; alloc]init];
+}
+
+- (void)tearDown {
+    self.&lt;#yourObject#&gt; = nil;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3B935998-C741-45DC-B854-6C5ADF3E7BAD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Unit test Setup and Teardown</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

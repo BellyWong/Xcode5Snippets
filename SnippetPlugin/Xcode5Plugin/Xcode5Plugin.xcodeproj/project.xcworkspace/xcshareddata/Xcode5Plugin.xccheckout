@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>81D6E8EC-24A1-4A10-A812-9F77E8DCADEE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Xcode5Plugin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6804187-ECBC-4EB4-83AC-67F04F9B8883</key>
+		<string>https://stash.r.mutualmobile.com/scm/char/mmcharlie.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Xcode5Plugin/Xcode5Plugin.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6804187-ECBC-4EB4-83AC-67F04F9B8883</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://stash.r.mutualmobile.com/scm/char/mmcharlie.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6804187-ECBC-4EB4-83AC-67F04F9B8883</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6804187-ECBC-4EB4-83AC-67F04F9B8883</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mmcharlie</string>
+		</dict>
+	</array>
+</dict>
+</plist>

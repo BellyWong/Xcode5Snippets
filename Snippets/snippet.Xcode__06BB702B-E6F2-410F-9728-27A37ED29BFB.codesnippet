@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mmOQCreateOperationQueue</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (NSOperationQueue *)create&lt;#operationQueue#&gt; {
+  NSOperationQueue *&lt;#operationQueueName#&gt; = [[NSOperationQueue alloc] init];
+  &lt;#operationQueueName#&gt;.name = @"&lt;#human readable name#&gt;";
+  &lt;#operationQueueName#&gt;.maxConcurrentOperationCount = &lt;#count#&gt;;
+  return &lt;#operationQueueName#&gt;;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>06BB702B-E6F2-410F-9728-27A37ED29BFB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create in a method and return</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSOperationQueue</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

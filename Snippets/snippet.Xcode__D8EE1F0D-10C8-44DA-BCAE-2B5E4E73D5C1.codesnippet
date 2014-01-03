@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mmUTMockExpect</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)test&lt;#MethodUsingMockExpects#&gt; {
+  id mock = [OCMockObject mockForClass:[&lt;#mockedClass#&gt; class]];
+  [[[mock expect]andReturnValue:OCMOCK_VALUE((&lt;#type#&gt;){&lt;#value#&gt;})]&lt;#method#&gt;];
+  [self.&lt;#yourObject#&gt; set&lt;#Property#&gt;:mock];
+  &lt;#type#&gt; expectedValue = &lt;#expected value#&gt;;
+  &lt;#type#&gt; retVal = [self.&lt;#yourObject#&gt; &lt;#testMethod#&gt;];
+  [[mock verify];
+   STAssertTrue(retVal == expectedValue,@"Returned value %d was expected to be %d",retVal,expectedValue);
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D8EE1F0D-10C8-44DA-BCAE-2B5E4E73D5C1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Unit Test Mock Expect</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

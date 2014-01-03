@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mmUTPartialMock</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)test&lt;#MethodBeingTested#&gt; {
+  id mock = [OCMockObject partialMockForObject:self.&lt;#yourObject#&gt;];
+  [[mock expect]&lt;#expectedMethodOnYourObject#&gt;];
+  [mock &lt;#methodUnderTest#&gt;];
+  [mock verify];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4B1B0274-3FD5-45A6-B342-DE671CDF9FF6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Unit test partial mock</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Partial Mock</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
